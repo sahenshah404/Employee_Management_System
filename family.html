@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>family details</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+
+</head>
+<body>
+<form method="POST" action="family.php">
+<br>
+          <h1>FAMILY DETAILS</h1>
+<br>
+<table class="table1">
+
+<tr><td>Family ID</td><td><input type ="text" name= "fID"></td></tr>
+<tr><td>Employee ID</td><td><input type ="text" name= "eID"></td></tr>
+<tr><td>Employee Relation</td><td><select name="relation" id="relation">
+  <option value="60"> Father </option>
+  <option value="61"> Mother </option>
+  <option value="62"> Son </option>
+  <option value="63"> Daughter </option>
+<option value="64"> Wife </option>
+<option value="64"> Husband </option>
+    </select></td></tr>
+
+<tr><td>Relative Name</td><td><input type ="text" name= "Rname"></td></tr>
+
+<tr><td>Relation Age</td><td><input type ="text" name= "Rage"></td></tr>
+<tr><td>Children</td><td><input type ="text" name= "Child"></td></tr>
+<tr><td>Nominee</td><td>Yes<input type="radio" id="1" name="nominee" value="1">
+
+No<input type="radio" id="0" name="nominee" value="0"></td></tr>
+
+<tr><td colspan="2"><input type="submit" name="Submit" value="Submit"></td></tr>
+
+<tr><td><a href="address.html">Back</a></td>
+<td><a href="account.html">Next</a></td></tr>
+</table>
+</form>
+</body>
+</html>

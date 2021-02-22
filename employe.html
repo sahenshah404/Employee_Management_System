@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>employee details</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+</head>
+<body>
+<form method="POST" action="employee.php">
+
+<h1>PERSONAL DETAILS</h1>
+     <table class="table1">
+     <tr>
+<td>Employee ID </td><td><input type="text" name="id"></td></tr>
+	<tr><td>Name</td><td> <input type="text" name="name"></td></tr>
+
+
+	<tr><td>Department ID</td><td>
+	<select name="dept_id" id="bank">
+	  <option value="60"> Manufacturing  </option>
+	  <option value="61"> Accounts </option>
+	  <option value="62"> Marketting </option>
+	  <option value="63"> Finance </option>
+	  <option value="64"> HR </option>
+	  </select>
+	</td></tr>
+
+<tr><td>Sex </td><td>Male<input type="radio" id="1" name="gender" value="1">
+
+Female<input type="radio" id="0" name="gender" value="0">
+</td></tr>
+
+
+	<tr><td>Marital Status </td><td>
+Married<input type="radio" id="1" name="married" value="1">
+Unmarried<input type="radio" id="0" name="married" value="0">
+
+
+</td></tr>
+
+	<tr><td>Date of joining</td><td><input type="text" name="doj"></td></tr>
+
+<tr><td>Date of birth</td><td><input type="text" name="dob"></td></tr>
+
+<tr><td>Age</td><td><input type="text" name="age"></td></tr>
+
+<tr><td>Education Qualification</td><td>
+<select name="ed" id="bank">
+  <option value="10"> BCA  </option>
+  <option value="20"> MCA </option>
+  <option value="30"> BBA </option>
+  <option value="40"> MBA </option>
+  <option value="50"> MA</option>
+<option value="51"> BA</option>
+<option value="52"> BTech</option>
+<option value="53"> MTech</option>
+<option value="54"> BSc</option>
+<option value="55"> MSc</option>
+  </select>
+</td></tr>
+
+<tr><td>Designation</td><td> <select name="desi" id="bank1">
+  <option value="80"> Director </option>
+  <option value="81"> Manager </option>
+  <option value="82"> Project Lead </option>
+  <option value="83"> Project Manager </option>
+<option value="84"> Software Engineer </option>
+  <option value="85"> HR Manager </option>
+  <option value="86"> Marketting Officer </option>
+  <option value="87"> Operating Officer </option>
+<option value="88">  Executive Officer</option>
+  <option value="89"> System Analyst </option>
+  <option value="90"> Manufacturing Officer  </option>
+  <option value="91"> Operating Officer  </option>
+	<option value="92"> Technical Manager </option>
+</select></td></tr>
+
+
+<tr><td>Salary</td><td><input type="text" name="salary"></td></tr>
+
+
+<tr><td>Location ID</td><td>
+<select name="location_id" id="bank">
+  <option value="80"> North , Norway  </option>
+  <option value="81"> North ,Sweden </option>
+  <option value="82"> North , Denmark </option>
+  <option value="86"> South , Botswana </option>
+  <option value="87"> South , South Africa</option>
+<option value="88"> South , Zimbabwe</option>
+<option value="92"> West , United States</option>
+<option value="93"> West , Italy</option>
+<option value="94"> West , Mexico</option>
+<option value="97"> West , France</option>
+	<option value="1008">East , Bahrain</option>
+	<option value="1013"> East , India</option>
+  </select>
+</td></tr>
+
+<tr><td>Active Status</td><td>Employee<input type="radio"  name="empsts" value="1">
+
+Ex-Employee<input type="radio" name="empsts" value="0">
+</td></tr>
+
+
+	<tr><td colspan="2"><input type="submit" name="Submit" value="Submit"></a></td></tr>
+<br>
+<tr><td><a href="index.html">Back</a></td>
+<td><a href="address.html">Next</a></td></tr>
+</table>
+
+
+</form>
+</body>
+</html>

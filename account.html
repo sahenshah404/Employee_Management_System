@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+<form method="POST" action="account.php">
+
+<br>
+<br>
+
+          <h1>ACCOUNT DETAILS</h1>
+<br>
+<br>
+
+<table class="table1">
+<tr>
+<td>
+Employee ID</td><td><input type ="text" name= "eID"></td></tr>
+<tr><td>Account Number</td><td><input type ="text" name= "AccNo"></td></tr>
+
+<tr><td>Bank</td>
+<td><select name="bank" id="bank">
+  <option value="1"> HDFC </option>
+  <option value="2"> SBI </option>
+  <option value="3"> PNB </option>
+  <option value="4"> ICICI </option>
+  <option value="5"> IDBI</option>
+  <option value="6"> YES </option>
+  <option value="7"> AXIS</option>
+  <option value="8">Kotak Mahindra</option>
+</select></td></tr>
+<tr><td>Account Type</td>
+<td>Salary<input type="radio" id="1" name="acctype" value="1">
+Reimbursement<input type="radio" id="2" name="acctype" value="2">
+Others<input type="radio" id="3" name="acctype" value="3">
+</select>
+</td></tr>
+<tr><td colspan="2">
+<input type="submit" name="Submit" value="Submit"></td></tr>
+
+<tr><td><a href="family.html">Back</a></td>
+<td><a href="index.html">Return To HomePage</a></td></tr>
+</table>
+</form>
+</body>
+</html>

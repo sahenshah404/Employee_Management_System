@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>reports</title>
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <h1>Reports </h1>
+    <p><h2>Click on Search Button to check the respected reports</h2></p>
+    <table border="2" class="tablerep">
+        <form class="" action="reports.php" method="POST">
+
+<!-- Rep 1 -->
+        <tr>
+          <td>Details of all employees from department
+          </td>
+          <td>
+              <select  name="deptm">
+                <option value="60"> Manufacturing  </option>
+            	  <option value="61"> Accounts </option>
+            	  <option value="62"> Marketting </option>
+            	  <option value="63"> Finance </option>
+            	  <option value="64"> HR </option>
+              </select>
+          </td>
+          <td>
+            <button type="submit" name="clicked"  class="submit" value="rep1">search</button>
+          </td>
+          </tr>
+
+
+<!-- Rep 2 -->
+          <tr>
+            <td>
+            Employee joining in and after a year</td>
+            <td> <input type="text" name="year" value="2005"> </td>
+            <td>   <button type="submit" name="clicked"  class="submit" value="rep2">search</button> </td>
+          </tr>
+
+<!-- Rep 3 -->
+          <tr>
+            <td colspan="2">
+            Employee monthly salary more than 10000</td>
+
+            <td>   <button type="submit" name="clicked"  class="submit" value="rep3">search</button> </td>
+          </tr>
+
+<!-- Rep 4 -->
+          <tr>
+            <td>
+            Employee with the designation</td>
+            <td> <select class="" name="design">
+              <option value="80"> Director </option>
+              <option value="81"> Manager </option>
+              <option value="82"> Project Lead </option>
+              <option value="83"> Project Manager </option>
+            <option value="84"> Software Engineer </option>
+              <option value="85"> HR Manager </option>
+              <option value="86"> Marketting Officer </option>
+              <option value="87"> Operating Officer </option>
+            <option value="88">  Executive Officer</option>
+              <option value="89"> System Analyst </option>
+              <option value="90"> Manufacturing Officer  </option>
+              <option value="91"> Operating Officer  </option>
+              <option value="92"> Technical Manager </option>
+            </select> </td>
+            <td>   <button type="submit" name="clicked"  class="submit" value="rep4">search</button> </td>
+          </tr>
+
+
+<!-- Rep 5 -->
+          <tr>
+            <td>
+            Employee from country</td>
+            <td> <select class="" name="country">
+              <option value="80">  Norway  </option>
+              <option value="81"> Sweden </option>
+              <option value="82">  Denmark </option>
+              <option value="86"> Botswana </option>
+              <option value="87"> South Africa</option>
+            <option value="88"> Zimbabwe</option>
+            <option value="92"> United States</option>
+            <option value="93"> Italy</option>
+            <option value="94">  Mexico</option>
+            <option value="97"> France</option>
+              <option value="1008"> Bahrain</option>
+              <option value="1013"> India</option>
+            </select> </td>
+            <td>   <button type="submit" name="clicked"  class="submit" value="rep5">search</button> </td>
+          </tr>
+
+<!-- Rep 6 -->
+
+          <tr>
+            <td>
+            Employee having children more than </td>
+            <td>
+              <select class="" name="child">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+
+              </select>
+             </td>
+            <td>   <button type="submit" name="clicked"  class="submit" value="rep6">search</button> </td>
+          </tr>
+
+<!-- Rep 7 -->
+
+            <tr>
+              <td colspan="2">
+              Employee having Post Graduation Degree</td>
+
+              <td>   <button type="submit" name="clicked"  class="submit" value="rep7">seacrh</button> </td>
+            </tr>
+
+
+<!-- Rep 8 -->
+            <tr>
+              <td colspan="2">
+                Total No. of employees having salary account group by bank
+              </td>
+
+              <td>   <button type="submit" name="clicked"  class="submit" value="rep8">search</button> </td>
+            </tr>
+
+<!-- Rep 9 -->
+
+            <tr>
+              <td>
+                No. of Technical manager availale in department
+              </td>
+              <td>
+                  <select  name="techm">
+                    <option value="60"> Manufacturing  </option>
+                	  <option value="61"> Accounts </option>
+                	  <option value="62"> Marketting </option>
+                	  <option value="63"> Finance </option>
+                	  <option value="64"> HR </option>
+                  </select>
+
+              <td>   <button type="submit" name="clicked"  class="submit" value="rep9">search</button> </td>
+            </tr>
+
+<!-- Rep 10 -->
+
+            <tr>
+              <td>
+                Department wise monthly expenditure against salary
+              </td>
+              <td>
+                  <select  name="expenditure">
+                    <option value="60"> Manufacturing  </option>
+                	  <option value="61"> Accounts </option>
+                	  <option value="62"> Marketting </option>
+                	  <option value="63"> Finance </option>
+                	  <option value="64"> HR </option>
+                  </select>
+
+              <td>   <button type="submit" name="clicked"  class="submit" value="rep10">search</button> </td>
+            </tr>
+
+
+
+    </form>
+
+  </table>
+  </body>
+</html>
